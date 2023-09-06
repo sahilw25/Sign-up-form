@@ -163,3 +163,27 @@ button:hover
     font-size: 1.1rem;
 }
 
+@media screen and (max-width:769px) {
+    main
+    {
+        flex-wrap: wrap;
+    }
+    .sect2
+    {
+        width: 100%;
+        padding: 20px;
+    }
+    .sect-txt
+    {
+        padding: 20px 10px;
+    }
+    .form-fields
+    {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .f-field
+    {
+        width: 100%;
+    }
+}
